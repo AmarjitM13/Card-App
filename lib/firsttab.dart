@@ -9,7 +9,7 @@ Widget firsttab(context) {
   return Column(
     children: <Widget>[
       Padding(
-        padding: const EdgeInsets.only(top: 200.0),
+        padding: const EdgeInsets.only(top: 100.0),
         child: CreditCardWidget(
           cardBgColor: Colors.orangeAccent,
           textStyle: TextStyle(fontFamily: 'Nunito', fontSize: 25,
@@ -24,4 +24,5 @@ Widget firsttab(context) {
       ),
     ],
   );
+
 }

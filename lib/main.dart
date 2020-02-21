@@ -2,6 +2,7 @@ import 'package:cards/fifthtab.dart';
 import 'package:cards/firsttab.dart';
 import 'package:cards/fourthtab.dart';
 import 'package:cards/secondtab.dart';
+import 'package:cards/sixthtab.dart';
 import 'package:cards/thirdtab.dart';
 import 'package:flutter/material.dart';
 
@@ -49,7 +50,8 @@ Widget cardboard(context) {
                   secondtab(context),
                   thirdtab(context),
                   fourthtab(context),
-                  fifthtab(context)
+                  fifthtab(context),
+                  sixthtab(context),
                   ],
                 ),
              ),
